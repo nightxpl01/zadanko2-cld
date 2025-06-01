@@ -39,19 +39,16 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Build image for scanning (single arch only)
+    - name: Build temp image (single arch) for scanning
       uses: docker/build-push-action@v5
       with:
         context: .
         push: false
         load: true
-        platforms: linux/amd64
+        platforms: linux/amd64 
         tags: ${{ env.IMAGE_NAME }}:temp
         cache-from: type=registry,ref=${{ env.CACHE_IMAGE }}
         cache-to: type=registry,ref=${{ env.CACHE_IMAGE }},mode=max
-
-    - name: Load temp image for scanning
-      run: docker load --input /tmp/image.tar
 
     - name: Enable Docker Scout CLI
       run: |
