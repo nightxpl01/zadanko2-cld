@@ -210,6 +210,10 @@ Test na CVE został wykonany przy użyciu Docker Scout'a, zmienne środowiskowe 
 
 	${{ env.IMAGE_NAME }}:${{ github.ref_name }} // tag o wartości branch'a który wywołał workflow (np. main)
 
+## Krok 4 - Link do pomyślnie wykonanego łańcucha
+
+
+
 ## Źródła
 https://docs.docker.com/build/ci/github-actions/manage-tags-labels/
 
