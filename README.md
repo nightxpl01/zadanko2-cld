@@ -212,11 +212,17 @@ Test na CVE został wykonany przy użyciu Docker Scout'a, zmienne środowiskowe 
 
 ## Źródła
 https://docs.docker.com/build/ci/github-actions/manage-tags-labels/
+
 https://github.com/marketplace/actions/docker-build-push-action
+
 https://github.com/docker/metadata-action?tab=readme-ov-file#tags-input
+
 https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-docker-images
+
 https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#onpushbranchestagsbranches-ignoretags-ignore
+
 https://github.com/marketplace/actions/docker-login
+
 https://github.com/marketplace/actions/docker-scout
 
 
