@@ -212,7 +212,7 @@ Test na CVE został wykonany przy użyciu Docker Scout'a, zmienne środowiskowe 
 
 ## Krok 4 - Link do pomyślnie wykonanego łańcucha
 
-
+https://github.com/nightxpl01/zadanko2-cld/actions/runs/15378151937/job/43265451042
 
 ## Źródła
 https://docs.docker.com/build/ci/github-actions/manage-tags-labels/
