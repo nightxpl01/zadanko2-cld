@@ -229,6 +229,7 @@ https://github.com/marketplace/actions/docker-scout
 ## Autor rozwiązania
 
 Michał Grzegorz Małysz 
+
 Grupa 6.8
 
 ## Autor zadania
